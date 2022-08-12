@@ -1,4 +1,4 @@
-* {
+ * {
     margin: 0;
     padding: 0;
 }
@@ -6,7 +6,7 @@
 body {
 
 
-    background-image: url("instagram.webp");
+    background-image: url("Instagram-survey-logo\ \(1\).webp");
     background-repeat: repeat-x;
     background-size: cover;
     background-attachment: fixed;
@@ -72,3 +72,55 @@ body {
     border-radius: 2px;
     cursor: pointer;
 }
+@media (max-width: 768px){
+ 
+    
+    .heading {
+        font-size: 1.9rem;
+       padding-right: 40%;
+
+    }
+    .form{
+        font-size: 200%;
+        margin-left:8%;
+    }
+  
+
+  
+
+}
+
+
+@media (max-width:500px) {
+
+    .heading h1{
+        font-size: 1.9rem;
+       padding-right: 45%;
+
+    }
+    .heading p{
+        font-size: 1.9rem;
+       padding-right: 15%;
+
+    }
+    .form{
+        width:14px;
+        font-size: 180%;
+        margin-left:3%;
+        
+    }
+
+
+
+
+
+}
+
+
+
+
+
+
+
+    
+
